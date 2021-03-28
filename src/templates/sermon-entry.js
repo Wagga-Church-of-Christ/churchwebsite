@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import config from '../utils/siteConfig'
-// import Layout from '../components/Layout'
 import Sermon from '../components/Sermon'
 import Container from '../components/Container'
 import PostLinks from '../components/PostLinks'
@@ -13,7 +12,6 @@ import Template from '../components/template/Template'
 const SermonEntryTemplate = ({ data, pageContext }) => {
   const root = '/sermons/'
   const postNode = data.contentfulSermon
-  // const navigation = pageContext.navigation
 
   const {
     title,

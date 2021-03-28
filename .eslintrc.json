@@ -1,6 +1,14 @@
 {
-  "extends": "gatsby-standard",
+  "extends": [
+    "gatsby-standard",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "rules": {
     "no-unsafe-finally": "off"
-  }
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ]
 }

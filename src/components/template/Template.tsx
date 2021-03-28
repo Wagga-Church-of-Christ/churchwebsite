@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 
 import { ThemeProvider } from 'styled-components'
 
-import RefTagger from '../RefTagger'
 import config from '../../utils/siteConfig'
 
 import GlobalStyle from '../../styles/global'
